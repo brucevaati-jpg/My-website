@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Custom Website</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+            }
+            h1 {
+                color: #333;
+            }
+            p {
+                color: #666;
+            }
+            h2 { color :yellow; }
+            .feedback-form { background-color:orange;}
+            #introduction { color: red; }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to My Custom Website</h1>
+        
+        <p id="introduction">This is a simple custom website.</p>
+        <h1>My favorite foods</h1>
+        <ul style="list-style-type: square; color: blue;">
+            <li>chapati and kamande</li>
+            <li>ugali and sukuma wiki</li>
+            <li>githeri</li>
+        </ul>
+        <h2>My favorite pet</h2>
+        <ol style="list-style-type: upper-roman; color: green;">
+            <li>dog</li>
+            <li>cat</li>
+            <li>fish</li>
+        </ol>
+        <table border="1" style="width: 50%; border-collapse: collapse; text-align: center;">
+            <h3>My Favorite Teachers</h3>
+            <tr>
+                <th>teacher</th>
+                <th>subject</th>
+            </tr>
+            <tr>
+                <td>mr. kamau</td>
+                <td>maths</td>
+            </tr>
+            <tr>
+                <td>mr. mutua</td>
+                <td>english</td>
+            </tr>
+            <tr>
+                <td>mr. wambua</td>
+                <td>kiswahili</td>
+            </tr>
+
+
+        </table>
+        <h4>
+            students feedback forms
+        </h4>
+        <form class="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for ="phone">Phone:</label>
+            <input type="number" id="phone" name="phone"><br><br>
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
